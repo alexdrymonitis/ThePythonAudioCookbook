@@ -1,0 +1,5 @@
+(define lowpass (
+	(let #coef (exp (/ (* (neg twopi) $2) sr)))
+	(rpole (* $1 (- 1 #coef)) #coef)
+	)
+)
