@@ -14,7 +14,7 @@ port = 5100
 client = SimpleUDPClient(ip, port)
 
 # the key argument below is left blank as this is private
-gmaps = googlemaps.Client(key="AIzaSyAGoLbSY4sMoKhQTGNpL1zRXAORSUvhx1g")
+gmaps = googlemaps.Client(key="")
 
 num_countries = len(cntry.countries)
 
